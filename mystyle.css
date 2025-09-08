@@ -1,0 +1,121 @@
+h1 {
+  font-size: 21pt;
+  background-color: rgb(229, 217, 252);
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #2d1457;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #f7f4ff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0 10vw;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #e5d9fc;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 0 0 10px 10px;
+}
+nav a {
+  color: #2d1457;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 1.1em;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: #6c3fc5;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+h2 {
+  color: #6c3fc5;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  color: #c0392b;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+#spiritday {
+  font-size: 16pt;
+  color: indigo;
+}
+
+#friday {
+  font-size: 16pt;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#friday .highlight {
+  background-color: red;
+  color: #fff;
+}
+
+img {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 3px solid #e5d9fc;
+  border-radius: 10px;
+  max-width: 200px;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(44,21,87,0.08);
+}
+
+.right-side {
+  /* For floating text beside image */
+}
+
+.quotation {
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #e5d9fc;
+  padding-left: 12px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #6c3fc5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+button:hover {
+  background-color: #2d1457;
+}
